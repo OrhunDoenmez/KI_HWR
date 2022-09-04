@@ -6,6 +6,6 @@ __author__ = "Andres Soto Villaverde"
 __email__ = "andres.soto.v@gmail.com"
 
 paths = {
-    'data_path': "C:/Users/Orhun Dönmez/Desktop/Artificial Intelligence/data",
-    'results_path': "C:/Users/Orhun Dönmez/Desktop/Artificial Intelligence/results",
+    'data_path': "Z:/GitHub/repositories/KI_HWR/data",
+    'results_path': "Z:/GitHub/repositories/KI_HWR/results",
     }
