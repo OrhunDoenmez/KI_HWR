@@ -107,7 +107,7 @@ if __name__ == '__main__':
 	blocked = [(2, 1), (2, 2)]
 	for (r, c) in blocked:
 		rgb = bm.update_color(rgb, r, c, bm.red)
-	bm.draw_board(nrows, ncols, rgb)
+	bm.draw_board(nrows, ncols, rgb, 'SHCboard.png')
 	"""
 	Next, we can define the configuration of the search.
 	In this case, we will search for nrows*ncols iterations (i.e., the 
@@ -138,7 +138,7 @@ if __name__ == '__main__':
 	# Paint in green the cells in the path
 	for (r, c) in solutions:
 		rgb1 = bm.update_color(rgb, r, c, bm.green)
-	bm.draw_board(nrows, ncols, rgb1)
+	bm.draw_board(nrows, ncols, rgb1, 'SHCboard_sol.png')
 	print('\nTotal time:', time() - begin)
 	pass
 
